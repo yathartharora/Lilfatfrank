@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_restful import Api
 
-from apicall import getdata
+from apicall import Todo
 
 app = Flask(__name__)
 api = Api(app)
