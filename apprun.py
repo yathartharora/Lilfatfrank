@@ -7,7 +7,7 @@ app = Flask(__name__)
 api = Api(app)
 
 # api.add_resource(Todo, "/todo/<int:id>")
-api.add_resource(getdata, "/data")
+api.add_resource(Todo, "/data")
 
 if __name__ == "__main__":
   app.run()
